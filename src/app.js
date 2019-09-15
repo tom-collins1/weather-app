@@ -31,7 +31,8 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'TC'
+        name: 'TC',
+        messaage:'This is the about page.'
     })
 })
 
